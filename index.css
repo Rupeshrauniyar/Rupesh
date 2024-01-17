@@ -1,0 +1,270 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+background-color: #0F0D0D;
+color: #fff;
+scroll-behavior: smooth;
+overflow-x: hidden;
+}
+
+.loader{
+position:fixed;
+z-index: 99;
+background-color: #0F0D0D;
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 0;
+opacity: 1;
+transition: all .55s ease;
+font-size: 10vh;
+}
+.loader h3{
+position: absolute;
+z-index: 9;
+transition: all .55s ease;
+}
+.loader #span{
+transition: all .55s ease;
+position: relative;
+z-index: 8;
+opacity: 0;
+}
+nav{
+height: 30vh;
+}
+.nav-container{
+background-color: #0F0D0D;
+padding: 0 20px;
+height: 12vh; 
+}
+.nav1 img{
+width: 7vh;
+height: 7vh;
+border-radius: 50%;
+object-fit: cover;
+
+}
+.nav1{
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+}
+.nav1 a{
+text-decoration: none;
+}
+.nav1 h3{
+color: white;
+font-size: 5vh;
+}
+.nav2 a{
+text-decoration: none;
+color: #fff;
+margin-right: 10px; 
+transition: all .5s ease-in-out;
+font-weight: 100;
+}
+
+.nav2 a:hover{
+color: #ff7f6a;
+}
+/* Nav Is Over Here */
+
+
+.page1{
+height: 70vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+color: #fff;
+}
+.page1-top{
+min-height: 20vh;
+}
+.page1-top h3{
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+font-size: 10vh;
+opacity: 0.07;
+}
+.page1-top h2{
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+font-size: 7vh;
+opacity: 0.07;
+}
+.page1-bottom{
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+font-size: 5vh;
+}
+.page1-most-bottom h3{
+font-size: 2vh;
+padding: 0 20px;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.page1-bottom img{
+width: 30vh;
+height: 30vh;
+border-radius: 50%;
+object-fit: cover;
+opacity: 0.02;
+}
+.page2-begninng{
+width: 100%;
+height: 20vh;
+position: relative;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.page2-begninng h3{
+font-size: 5vh;
+font-weight: 600;
+opacity: 0.07;
+}
+.page2-begninng span{
+font-size:4vh ;
+}
+.page2{
+height: 80vh;
+width: 100%;
+box-shadow: 0 0 4px #000;
+border-radius:15px;
+margin-top: 10vh;
+align-items: center;
+justify-content: center;
+position: relative;
+display: flex;
+opacity: 0.04;
+}
+.page2-nd{
+opacity: 0.04;
+}
+.page2-rd{
+opacity: 0.04;
+}
+.page2-th{
+opacity: 0.04;
+}
+.page2-details{
+margin-top: 5vh;
+width: 100%;
+height: 20vh;
+}
+.page2 p{
+align-items: center;
+justify-content: center;
+position: relative;
+display: flex;
+}
+.page2-link{
+height:10vh;
+align-items: center;
+justify-content: center;
+position: relative;
+display: flex;
+}
+.page2-link a{
+align-items: center;
+justify-content: center;
+position: relative;
+display: flex;
+width: 15vh;
+height: 7vh;
+text-decoration: none;
+color: #fff;
+background-color: #2852efd2;
+border-radius: 8px;
+}
+.page2-imgs{
+padding: 0 15px;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.page2 img{
+height: 50vh;
+width: 50vh;
+border-radius: 10px;
+}
+.page3{
+height: 95vh;
+width: 100%;
+box-shadow: 0 0 4px #000;
+border-radius:15px;
+margin-top: 10vh;
+align-items: center;
+justify-content: center;
+position: relative;
+display: flex;
+}
+.page3 p{
+align-items: center;
+justify-content: center;
+position: relative;
+display: flex;
+}
+.page3 img{
+height: 50vh;
+width: 50vh;
+border-radius: 10px;
+}
+.page4{
+width:100%;
+height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+font-size: 5vh;
+display: flex;
+}
+footer h3,h2{
+font-size: 3vh;
+padding: 0 6px;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+footer a{
+font-size: 3vh;
+align-items: center;
+justify-content: center;
+position: relative;
+display: flex;
+width: 20vh;
+height: 7vh;
+text-decoration: none;
+color: #fff;
+background-color: #2852efd2;
+border-radius: 8px;
+}
+footer h2{
+margin-top: 5vh;
+}
+footer span{
+font-size: 4vh;
+letter-spacing: 1px;
+color: #8098ff;
+}
