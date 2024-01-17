@@ -246,23 +246,19 @@ footer h3,h2{
 font-size: 3vh;
 padding: 0 6px;
 color: #fff;
-display: flex;
-align-items: center;
-justify-content: center;
-position: relative;
 }
 footer a{
 font-size: 3vh;
-align-items: center;
-justify-content: center;
-position: relative;
-display: flex;
 width: 20vh;
 height: 7vh;
 text-decoration: none;
 color: #fff;
 background-color: #2852efd2;
 border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
 }
 footer h2{
 margin-top: 5vh;
