@@ -88,7 +88,7 @@ opacity:5,
 
 tl4.to('.page2-begninng h3',{
 width:"100vh",
-fontSize:"6vh",
+fontSize:"3vh",
 padding:"0 0",
 y:"-3vh", 
 opacity:5,
@@ -103,7 +103,6 @@ end:'top 0',
 scrub:2,
 duration:"0.5s",
 delay:2,
-
 }
 },"same6")
 
